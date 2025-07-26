@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Runtime files
+seeds.txt
+generated.txt
+balance_results_*.json
+
+# IDE
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.production
+
+# Private keys and sensitive data
+private_keys/
+wallets/
+*.key
+*.pem
+
+# Temporary files
+*.tmp
+*.temp

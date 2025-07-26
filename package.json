@@ -1,0 +1,22 @@
+{
+  "name": "taproot-wallet-manager",
+  "version": "1.0.0",
+  "description": "Bitcoin Taproot wallet generator and balance checker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "balance": "node balance-checker.js",
+    "generate": "node wallet-generator.js"
+  },
+  "dependencies": {
+    "bitcoinjs-lib": "^6.1.5",
+    "bip39": "^3.1.0",
+    "bip32": "^4.0.0",
+    "axios": "^1.6.0",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "devDependencies": {},
+  "keywords": ["bitcoin", "taproot", "wallet", "cryptocurrency"],
+  "author": "",
+  "license": "MIT"
+}
