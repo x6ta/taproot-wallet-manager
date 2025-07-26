@@ -6,6 +6,7 @@ package-lock.json
 seeds.txt
 generated.txt
 balance_results_*.json
+drain_results_*.json
 
 # IDE
 .vscode/
